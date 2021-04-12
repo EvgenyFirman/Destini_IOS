@@ -1,11 +1,14 @@
-//
-//  StoryBrain.swift
-//  Destini-iOS13
-//
-//  Created by Angela Yu on 08/08/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
-//
+
 
 import Foundation
+
+struct StoryBrain {
+    var stories = [
+        Story(title: "You see a fork in the road...", choice1: "Turn right", choice2: "Turn left"),
+        Story(title: "You see a tigher", choice1: "Shout for help", choice2: "Play dead"),
+        Story(title: "You found a treasure chest", choice1: "Open it", choice2: "Check for traps")
+    ]
+    
+}
 
 
